@@ -41,6 +41,18 @@
 * bot_challenge
   - utter_iamabot
 
+## happy path potato
+* greet{"user": "name"}
+   - utter_greet
+* learn_nature{"subject": "potatoes"}
+   - utter_potato_fact
+* show_product_interest
+   - utter_sale_pitch
+* barter_price
+   - utter_adjusted_pitch
+* affirm
+   - utter_complete_sale
+
 ## interactive_story_1
 * greet
     - utter_greet
@@ -53,5 +65,30 @@
 * learn_nature{"subject": "potatoes"}
     - utter_potato_fact
     - utter_sale_pitch
+* affirm
+    - utter_complete_sale
+
+## interactive_story_1
+* greet{"user": "Kevin"}
+    - slot{"user": "Kevin"}
+    - utter_greet
+* learn_nature{"subject": "potato"}
+    - utter_potato_fact
+* show_product_interest
+    - utter_sale_pitch
+* barter_price
+    - utter_adjusted_pitch
+* show_product_interest
+    - utter_complete_sale
+
+## interactive_story_1
+* greet{"user": "Lord_Johnathan"}
+    - slot{"user": "Lord_Johnathan"}
+    - utter_greet
+* learn_nature{"subject": "potatoes"}
+    - utter_potato_fact
+    - utter_sale_pitch
+* barter_price
+    - utter_adjusted_pitch
 * affirm
     - utter_complete_sale

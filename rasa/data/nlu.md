@@ -9,6 +9,8 @@
 - hi. I'm [Tim](user)
 - I'm [Tim](user)
 - Hi I'm John
+- Hi I'm [Kevin](user)
+- Hi I'm [Lord_Johnathan](user)
 
 ## intent:ask_philosophy
 - What is [life](subject)?
@@ -41,6 +43,7 @@
 - that sounds good
 - correct
 - Yes
+- Sounds perfect!
 
 ## intent:deny
 - no
@@ -49,6 +52,7 @@
 - don't like that
 - no way
 - not really
+- I don't want it
 
 ## intent:mood_great
 - perfect
@@ -83,3 +87,27 @@
 - have you heard of [potatoes](subject)
 - I wonder if you can tell me something about [potatoes](subject)
 - Do you know anything about [potatoes](subject)?
+- Do you have any [potato](subject) facts?
+- Do you know anything about [potatoes](subject)?
+
+## intent:barter_price
+- can it be cheaper?
+- I cannot afford this product
+- too expensive!
+- I'd rather shop elsewhere
+- can you sell me something else?
+- bring me to your manager!
+- I'm poor
+- Give me a deal please
+- Can't you see I'm poor?
+- It is too expensive I'm afraid...
+- Kinda expensive for my blood
+
+## intent:show_product_interest
+- oh really?
+- how cheap can you make it?
+- What's the new price?
+- I'd love to buy at this price!
+- I'd like to buy some.
+- Can I purchase some?
+- Yes! I'd love to pay 3.25$ for a single potato!

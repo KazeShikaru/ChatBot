@@ -1,87 +1,79 @@
---- 
-actions: 
-  - persona_response
-  - utter_cheer_up
-  - utter_complete_sale
-  - utter_did_that_help
-  - utter_goodbye
-  - utter_greet
-  - utter_happy
-  - utter_iamabot
-  - utter_philosophy
-  - utter_potato_fact
-  - utter_pretend_care
-  - utter_sale_pitch
-  - action_calculate
-entities: 
-  - subject
-  - user
-  - trait
-  - experience_level
-intents: 
-  - learn_nature
-  - affirm
-  - greet
-  - learn_bot
-  - goodbye
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - desire_potato
-  - ask_philosophy
-responses: 
-  utter_cheer_up: 
-    - 
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-      text: "Here is something to cheer you up:"
-  utter_complete_sale: 
-    - 
-      text: "Thank you for your purchase!"
-  utter_did_that_help: 
-    - 
-      text: "Did that help you?"
-  utter_goodbye: 
-    - 
-      text: Bye
-  utter_greet: 
-    - 
-      text: Hey!
-    - 
-      text: "Hey! {user}"
-  utter_happy: 
-    - 
-      text: "Great, carry on!"
-  utter_iamabot: 
-    - 
-      text: "I am a Flora, your potato assistant."
-  utter_philosophy: 
-    - 
-      text: "Such question is quite difficult to answer."
-  utter_potato_fact: 
-    - 
-      text: "Today potatoes are grown in all 50 states of the USA and in about 125 countries throughout the world."
-    - 
-      text: "The potato is about 80% water and 20% solids."
-    - 
-      text: "An 8 ounce baked or boiled potato has only about 100 calories."
-  utter_pretend_care: 
-    - 
-      text: "I think you should take better care of yourself."
-    - 
-      text: "You should try something new once in a while."
-  utter_sale_pitch: 
-    - 
-      text: "Would you like to buy some potatoes?"
-session_config: 
+actions:
+- action_calculate
+- persona_response
+- utter_adjusted_pitch
+- utter_cheer_up
+- utter_complete_sale
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_philosophy
+- utter_potato_fact
+- utter_pretend_care
+- utter_sale_pitch
+entities:
+- experience_level
+- subject
+- trait
+- user
+intents:
+- learn_nature
+- greet
+- affirm
+- barter_price
+- show_product_interest
+- learn_bot
+- goodbye
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- desire_potato
+- ask_philosophy
+responses:
+  utter_adjusted_pitch:
+  - text: I can make it cheaper if you want? How about 3.25$ each?
+  - text: How about 3.25$ each?
+  - text: Let's work something out? How about 3.25$ each?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_complete_sale:
+  - text: Thank you for your purchase!
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey!
+  - text: Hey! {user}
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a Flora, your potato assistant.
+  utter_philosophy:
+  - text: Such question is quite difficult to answer.
+  utter_potato_fact:
+  - text: Today potatoes are grown in all 50 states of the USA and in about 125 countries
+      throughout the world.
+  - text: The potato is about 80% water and 20% solids.
+  - text: An 8 ounce baked or boiled potato has only about 100 calories.
+  utter_pretend_care:
+  - text: I think you should take better care of yourself.
+  - text: You should try something new once in a while.
+  utter_sale_pitch:
+  - text: Would you like to buy some potatoes? 4.5$ each
+session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
-slots: 
-  experience_level: 
+slots:
+  experience_level:
     type: categorical
-    values: 
-      - low
-      - medium
-      - high
-  user: 
+    values:
+    - low
+    - medium
+    - high
+  user:
     type: text
