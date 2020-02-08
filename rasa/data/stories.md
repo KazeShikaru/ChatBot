@@ -22,6 +22,13 @@
 * deny
   - utter_goodbye
 
+## Sales Path 1
+* greet
+   - utter_greet
+* desire_potato
+   - utter_potato_fact
+   - utter_sale_pitch
+
 ## say goodbye
 * goodbye
   - utter_goodbye

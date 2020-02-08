@@ -6,23 +6,26 @@
 - good evening
 - hey there
 - Hello
+- hi. I'm [Tim](user)
+- I'm [Tim](user)
 
-## intent:philosophy
-- What is life?
+## intent:ask_philosophy
+- What is [life](subject)?
 - If a tree falls and no one is around, does it make a sound?
-- What is time?
-- What is death?
-- Why are we alive?
-- What does it mean to be alive?
-- Why does life suck?
+- What is [time](subject)?
+- What is [death](subject)?
+- Why are we [alive](subject)?
+- What does it mean to be [alive](subject)?
+- Why does [life](subject) suck?
 
 ## intent:learn_bot
-- What is your favorite colour?
-- What animals do you like?
+- What is your favorite [colour](trait)?
+- What [colour](trait) do you like?
 - How old are you?
 - Do you like fruits?
 - Do you like cats?
 - What do you do?
+- Who are you?
 
 ## intent:goodbye
 - bye
@@ -72,3 +75,9 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:learn_nature
+- do you know anything about [potatoes](subject)
+- have you heard of [potatoes](subject)
+- I wonder if you can tell me something about [potatoes](subject)
+

@@ -6,6 +6,11 @@ actions:
 - utter_greet
 - utter_happy
 - utter_iamabot
+- utter_potato_fact
+- utter_pretend_care
+- utter_sale_pitch
+- utter_complete_sale
+- utter_philosophy
 intents:
 - greet
 - learn_bot
@@ -15,6 +20,9 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- desire_potato
+- learn_nature
+- ask_philosophy
 responses:
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
@@ -28,7 +36,19 @@ responses:
   utter_happy:
   - text: Great, carry on!
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: I am a Flora, your potato assistant.
+  utter_potato_fact:
+  - text: Today potatoes are grown in all 50 states of the USA and in about 125 countries throughout the world.
+  - text: The potato is about 80% water and 20% solids.
+  - text: An 8 ounce baked or boiled potato has only about 100 calories.
+  utter_pretend_care:
+  - text: I think you should take better care of yourself.
+  - text: You should try something new once in a while.
+  utter_sale_pitch:
+  - text: Would you like to buy some potatoes?
+  utter_philosophy:
+  - text: Such question is quite difficult to answer.
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
