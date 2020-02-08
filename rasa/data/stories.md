@@ -42,3 +42,12 @@
     - utter_greet
 * learn_bot
     - persona_response
+
+## interactive_story_1
+* greet
+    - utter_greet
+* learn_nature{"subject": "potatoes"}
+    - utter_potato_fact
+    - utter_sale_pitch
+* affirm
+    - utter_complete_sale

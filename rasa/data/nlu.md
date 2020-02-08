@@ -8,6 +8,7 @@
 - Hello
 - hi. I'm [Tim](user)
 - I'm [Tim](user)
+- Hi I'm John
 
 ## intent:ask_philosophy
 - What is [life](subject)?
@@ -39,6 +40,7 @@
 - of course
 - that sounds good
 - correct
+- Yes
 
 ## intent:deny
 - no
@@ -80,4 +82,4 @@
 - do you know anything about [potatoes](subject)
 - have you heard of [potatoes](subject)
 - I wonder if you can tell me something about [potatoes](subject)
-
+- Do you know anything about [potatoes](subject)?
