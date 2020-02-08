@@ -4,6 +4,10 @@
 * mood_great
   - utter_happy
 
+## greet with name
+  * greet{"user": "name"}
+  - utter_greet
+
 ## sad path 1
 * greet
   - utter_greet
