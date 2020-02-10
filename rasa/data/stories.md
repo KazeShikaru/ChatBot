@@ -92,3 +92,7 @@
     - utter_adjusted_pitch
 * affirm
     - utter_complete_sale
+
+## interactive_story_1
+* greet
+    - utter_greet

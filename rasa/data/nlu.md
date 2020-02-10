@@ -88,7 +88,6 @@
 - I wonder if you can tell me something about [potatoes](subject)
 - Do you know anything about [potatoes](subject)?
 - Do you have any [potato](subject) facts?
-- Do you know anything about [potatoes](subject)?
 
 ## intent:barter_price
 - can it be cheaper?

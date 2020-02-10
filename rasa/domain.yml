@@ -14,13 +14,14 @@ actions:
 - utter_pretend_care
 - utter_sale_pitch
 entities:
+- entities
 - experience_level
 - subject
 - trait
 - user
 intents:
-- learn_nature
 - greet
+- learn_nature
 - affirm
 - barter_price
 - show_product_interest
