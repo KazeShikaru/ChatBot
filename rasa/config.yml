@@ -1,7 +1,8 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: en
-pipeline: "pretrained_embeddings_spacy"
+pipeline: 
+- name: "pretrained_embeddings_spacy"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
