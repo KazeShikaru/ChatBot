@@ -15,3 +15,21 @@ Project Expected Timespan:
 
 Sponsor: Rick
 
+
+Installation guide (current version)
+Dependencies: Spacy, Rasa, Tensorflow 2.0, Nvidia Cuda, 
+Installation guide for Rasa: https://rasa.com/docs/rasa/user-guide/installation/
+
+File Organization:
+
+
+
+Current Pipeline:
+-SpacyNLP
+-SpacyTokenizer
+-SentimentAnalyzer
+-SpacyFeaturizer
+-RegexFeaturizer
+-CRFEntityExtractor
+
+Known Issues:
