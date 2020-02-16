@@ -11,6 +11,8 @@
 - Hi I'm John
 - Hi I'm [Kevin](user)
 - Hi I'm [Lord_Johnathan](user)
+- Hi, I'm josh
+- Hi, I'm [bob](user)
 
 ## intent:ask_philosophy
 - What is [life](subject)?
