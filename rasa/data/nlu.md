@@ -8,10 +8,10 @@
 - Hello
 - hi. I'm [Tim](user)
 - I'm [Tim](user)
-- Hi I'm John
+- Hi I'm [John](user)
 - Hi I'm [Kevin](user)
 - Hi I'm [Lord_Johnathan](user)
-- Hi, I'm josh
+- Hi, I'm [Josh](user)
 - Hi, I'm [bob](user)
 
 ## intent:ask_philosophy

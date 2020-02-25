@@ -34,10 +34,14 @@ intents:
 - desire_potato
 - ask_philosophy
 responses:
-  utter_adjusted_pitch:
+  utter_adjusted_price:
   - text: I can make it cheaper if you want? How about 3.25$ each?
   - text: How about 3.25$ each?
   - text: Let's work something out? How about 3.25$ each?
+  utter_adjusted_product:
+  - text: We also sell Large potatoes and Smoll potatoes
+  - text: How about mashed potatoes?
+  - text: Would you like to try some fried potatoes?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'

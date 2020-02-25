@@ -2,9 +2,10 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: en
 pipeline: 
+- name: "autocorrect.SpellChecker"
 - name: "SpacyNLP"
 - name: "SpacyTokenizer"
-#- name: "sentiment.SentimentAnalyzer" 
+- name: "sentiment.SentimentAnalyzer" 
 - name: "SpacyFeaturizer"
 - name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
