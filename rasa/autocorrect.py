@@ -1,7 +1,7 @@
 from rasa.nlu.components import Component
 import typing
 from typing import Any, Optional, Text, Dict
-from autocorrect import spell
+
 
 if typing.TYPE_CHECKING:
     from rasa.nlu.model import Metadata
@@ -44,8 +44,8 @@ class SpellChecker(Component):
 
     def process(self, message, **kwargs):
 
-        from autocorrect import spell
-
+        from autocorrect import Speller
+        spell = Speller(lang='en')
         mesg = message.text #get original message
         text = spell(mesg) #correct the message with autocorrect
         message.text = text #set the corrected message as the message for the next components to process
