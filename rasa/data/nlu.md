@@ -69,6 +69,8 @@
 - see you
 - good night
 - bye bye
+- toodles
+
 
 ## intent:affirm
 - yes
@@ -81,6 +83,7 @@
 - Sounds perfect!
 - sounds great
 - great
+- yup
 
 ## intent:deny
 - no
@@ -93,6 +96,7 @@
 - nah
 - how bout no
 - how about no
+- nope
 
 ## intent:mood_great
 - perfect
@@ -105,7 +109,8 @@
 - I'm good
 - Really well
 - I'm doing really well
-- aawesome
+- awesome
+- stellar
 
 ## intent:mood_unhappy
 - sad
@@ -121,6 +126,7 @@
 - depressed
 - mad
 - upset
+- not great
 
 ## intent:bot_challenge
 - are you a bot?
@@ -153,6 +159,7 @@
 - How about a dollar?
 - I can't afford that
 - that's too much
+- no
 
 ## intent:show_product_interest
 - oh really?
