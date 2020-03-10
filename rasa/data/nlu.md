@@ -1,7 +1,11 @@
 ## intent:greet
 - hey
+- Hey
 - hello
 - hi
+- Hi
+- greetings
+- hey there
 - good morning
 - good evening
 - hey there
@@ -22,30 +26,61 @@
 - Why are we [alive](subject)?
 - What does it mean to be [alive](subject)?
 - Why does [life](subject) suck?
+- Why does everyone hate me?
+- Why does school suck?
+- Why
+
+## intent:ask_mood
+- How are you?
+- How are you doing?
+- How's it going?
+- Hey, how's it going?
+- Hi, how are you?
+- How is it going?
+- What's up
+- whats up
+- what's up?
 
 ## intent:learn_bot
 - What is your favorite [colour](trait)?
 - What [colour](trait) do you like?
 - How old are you?
-- Do you like fruits?
-- Do you like cats?
+- Do you like [fruits](subject)?
+- Do you like [cats](subject)?
+- Do you like [dogs](subject)?
 - What do you do?
+- What do you do for fun?
 - Who are you?
+- What are you doing [later](time)?
+- What are you doing [tomorrow](time)?
+- Where did you come from?
+
+## intent:learn_future
+- How will I die?
+- Will I be rich?
+- What will happen to me?
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- see ya
+- see you
+- good night
+- bye bye
 
 ## intent:affirm
 - yes
 - indeed
 - of course
+- sounds good
 - that sounds good
 - correct
 - Yes
 - Sounds perfect!
+- sounds great
+- great
 
 ## intent:deny
 - no
@@ -55,6 +90,9 @@
 - no way
 - not really
 - I don't want it
+- nah
+- how bout no
+- how about no
 
 ## intent:mood_great
 - perfect
@@ -65,6 +103,9 @@
 - I am feeling very good
 - I am great
 - I'm good
+- Really well
+- I'm doing really well
+- aawesome
 
 ## intent:mood_unhappy
 - sad
@@ -77,12 +118,18 @@
 - not very good
 - extremely sad
 - so sad
+- depressed
+- mad
+- upset
 
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- are you real?
+- are you a person?
+- are you a chat bot?
 
 ## intent:learn_nature
 - do you know anything about [potatoes](subject)
@@ -103,6 +150,9 @@
 - Can't you see I'm poor?
 - It is too expensive I'm afraid...
 - Kinda expensive for my blood
+- How about a dollar?
+- I can't afford that
+- that's too much
 
 ## intent:show_product_interest
 - oh really?
@@ -112,3 +162,5 @@
 - I'd like to buy some.
 - Can I purchase some?
 - Yes! I'd love to pay 3.25$ for a single potato!
+- I'll take one
+- I'll take it
