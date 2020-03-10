@@ -1,5 +1,7 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
+# pipeline: list of functions to preprocess the text 
+#   before passing through the rasa machine learning model
 language: en
 pipeline: 
 
