@@ -32,7 +32,7 @@ Main language: Python 3
 
 ## Installation and running guide (current version)
 
-First, you will need to install Rasa and its dependencies (Spacy):https://rasa.com/docs/rasa/user-guide/installation/. <br>
+First, you will need to install Rasa and its dependencies (Spacy): https://rasa.com/docs/rasa/user-guide/installation/. <br>
 
 Then, install Anaconda for python 3.7. After installing it and launching anaconda. Inside it import the virtual environment file `environment.yml` contained inside the project folder `./rasa`. It may take a while to import it due to the high number of Dependencies.
 Now, using pythom import ntlk and download vader_lexicon `nltk.download('vader_lexicon')`.
