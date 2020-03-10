@@ -171,3 +171,8 @@
 - Yes! I'd love to pay 3.25$ for a single potato!
 - I'll take one
 - I'll take it
+
+## intent:rasputin
+- rasputin
+- sing rasputin
+- ra ra rasputin
