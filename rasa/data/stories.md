@@ -45,7 +45,7 @@
 * bot_challenge
   - utter_iamabot
 
-## happy path potato
+## barter potato
 * greet{"user": "name"}
    - utter_greet
 * learn_nature{"subject": "potatoes"}
@@ -57,13 +57,13 @@
 * affirm
    - utter_complete_sale
 
-## interactive_story_1
+## greet and learn
 * greet
     - utter_greet
 * learn_bot
     - persona_response
 
-## interactive_story_1
+## greet learn and buy
 * greet
     - utter_greet
 * learn_nature{"subject": "potatoes"}
@@ -72,7 +72,7 @@
 * affirm
     - utter_complete_sale
 
-## interactive_story_1
+## greet, learn, show interet, barter, buy
 * greet{"user": "Kevin"}
     - slot{"user": "Kevin"}
     - utter_greet
@@ -85,7 +85,7 @@
 * show_product_interest
     - utter_complete_sale
 
-## interactive_story_1
+## greet, learn, barter, buy
 * greet{"user": "Lord_Johnathan"}
     - slot{"user": "Lord_Johnathan"}
     - utter_greet
@@ -97,6 +97,10 @@
 * affirm
     - utter_complete_sale
 
-## interactive_story_1
+## greet back
 * greet
     - utter_greet
+
+## learn future
+* learn_future
+    - utteR_philosophy
