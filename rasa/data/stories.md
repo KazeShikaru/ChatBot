@@ -103,4 +103,8 @@
 
 ## learn future
 * learn_future
-    - utteR_philosophy
+    - utter_philosophy
+    
+## goodbye
+* goodbye
+    - utter_goodbye
