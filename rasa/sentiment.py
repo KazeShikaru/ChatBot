@@ -8,14 +8,7 @@ import os
 
 class SentimentAnalyzer(Component):
 
-    #initializes variables and arrays
-    name = "sentiment"
-    provides = ["entities"]
-    requires = []
-    defaults = {}
-    language_list = ["en"]
-
-    #initializes the super class 
+    #initializes the super class contructor
     def __init__(self, component_config=None):
         super(SentimentAnalyzer, self).__init__(component_config)
 
