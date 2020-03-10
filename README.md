@@ -7,16 +7,19 @@ Ren
 Will
 Carter
 
-Planning:
-Main language: Python 3
-
-Project Expected Timespan:
-3 lunar cycles.
-
 Sponsor: Rick
 
+# Planning:
+Main language: Python 3
 
-Installation guide (current version)
+# Project Expected Timespan:
+3 lunar cycles.
+
+
+
+
+# Installation guide (current version)
+
 First, you will need to install Rasa and its dependencies (Spacy):https://rasa.com/docs/rasa/user-guide/installation/. then, install Anaconda for python 3.7. After installing it and launching anaconda. Inside it import the virtual environment file (environment.yml) contained inside the project folder (ChatBot\rasa). It may take a while to import it due to the high number of Dependencies.
 Now, using pythom import ntlk and download vader_lexicon (nltk.download('vader_lexicon')).
 Afterwards, Inside Rasa on the environments tab click the arrow on top of the environment named "rasa". This will load the environment. After it is loaded click the arrow again and select the option run in terminal. This will create a new command prompt. Inside it change the directory to the folder where your project is located. There, use the command (rasa shell).
