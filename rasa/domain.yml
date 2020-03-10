@@ -14,6 +14,8 @@ actions:
 - utter_potato_fact
 - utter_pretend_care
 - utter_sale_pitch
+- utter_question
+- utter_apology
 entities:
 - entities
 - experience_level
@@ -55,6 +57,7 @@ responses:
   - text: Did that help you?
   utter_goodbye:
   - text: Bye
+  - text: Goodbye
   utter_greet:
   - text: Hey!
   - text: Hey! {user}
@@ -74,6 +77,14 @@ responses:
   - text: You should try something new once in a while.
   utter_sale_pitch:
   - text: Would you like to buy some potatoes? 4.5$ each
+  utter_question:
+  - text: What is your favourite colour?
+  - text: How are you doing?
+  - text: How old are you?
+  utter_apology:
+  - text: Sorry about that!
+  - text: I'm sorry!
+  - text: sorry
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
