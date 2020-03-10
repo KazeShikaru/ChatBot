@@ -24,18 +24,19 @@ entities:
 - user
 intents:
 - greet
-- learn_nature
-- affirm
-- barter_price
-- show_product_interest
+- ask_philosophy
+- ask_mood
 - learn_bot
+- learn_future
 - goodbye
+- affirm
 - deny
 - mood_great
 - mood_unhappy
 - bot_challenge
-- desire_potato
-- ask_philosophy
+- learn_nature
+- bart_price
+- show_product_interest
 - rasputin
 responses:
   utter_rasputin:
