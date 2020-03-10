@@ -13,6 +13,9 @@ Sponsor: Rick
 
 ## Language and Tools used:
 Main language: Python 3
+Framework: rasa, under MIT license
+GUI Prototype: github.com/JiteshGaikwad/Rasa_CustomUI-v_2.0, under MIT license
+Final GUI: under development
 
 ## Project Expected Timespan:
 3 lunar cycles.
