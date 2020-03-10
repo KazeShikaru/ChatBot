@@ -1,7 +1,7 @@
 # ChatBot
 Project for COSC 310 Software Engineering
 
-Participants:<br>
+# Team Members:<br>
   Carter Phillips<br>
   Ren Lin<br>
   Rickson Reichmann<br>
