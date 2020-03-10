@@ -7,3 +7,6 @@ Katahdin Potato
 New Potatoes
 Carola 
 Inca Gold 
+
+
+/*Reference for potato types */
