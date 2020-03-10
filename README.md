@@ -1,7 +1,9 @@
 # ChatBot
 Project for COSC 310 Software Engineering
 
-## Team Members:<br>
+/////////////////////////////////////exaplain project here
+
+### Team Members:<br>
   Carter Phillips<br>
   Ren Lin<br>
   Rickson Reichmann<br>
@@ -9,16 +11,16 @@ Project for COSC 310 Software Engineering
 
 Sponsor: Rick
 
-## Planning:
+### Labguage and Tools used:
 Main language: Python 3
 
-## Project Expected Timespan:
+### Project Expected Timespan:
 3 lunar cycles.
 
 
 
 
-## Installation guide (current version)
+### Installation and running guide (current version)
 
 First, you will need to install Rasa and its dependencies (Spacy):https://rasa.com/docs/rasa/user-guide/installation/. <br>
 
@@ -33,16 +35,10 @@ When done you can run the command `rasa shell` to start the command prompt versi
 If you want to run the prototype version of the GUI you the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that open the file `index.html` inside `./rasa/Rasa_CustomUI-v_2.0-master/`.
 Click the button on the bottom-right side of the window to open the chat window. And send a message to start loading the models. It may take a while to process. After it finishes loading the bot will be working.<br>
 
-## Project Organization
-
-
-
-## Current Pipeline:
+### Current Pipeline:
 -SpacyNLP<br>
 -SpacyTokenizer<br>
 -SentimentAnalyzer<br>
 -SpacyFeaturizer<br>
 -RegexFeaturizer<br>
 -CRFEntityExtractor<br>
-
-## Known Issues:
