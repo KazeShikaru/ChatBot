@@ -19,7 +19,9 @@ Framework: [rasa](https://rasa.com/)
 
 ////////////explain how the yaml files work (intent response and sentiment)
 **data/nlu.md:** Contains intents, which are topics that the user might ask about
+
 **data/stories.md:** Contains common structuers or flows of conversations. This is how the bot knows how to respond to user input. The user's input gets classified as an intent, and then the stories tell the bot what to do in response to a given intent.
+
 **domain.yml:** A central file that links together all actions, intents, and entities defined in nlu and stories files. It also contains all specific responses or "utter"-ings for the bot. That is, the story specifies which response in the domain to use.
 
 ### Current Pipeline:
