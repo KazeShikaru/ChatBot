@@ -1,18 +1,35 @@
 actions:
 - action_calculate
+- action_decide
 - persona_response
+- utter_additional_request_check
 - utter_adjusted_pitch
+- utter_adjusted_price
+- utter_adjusted_product
 - utter_cheer_up
 - utter_complete_sale
+- utter_denial
 - utter_did_that_help
+- utter_favorite_color
+- utter_flower_death
+- utter_flower_wedding
+- utter_functions
 - utter_goodbye
 - utter_greet
 - utter_happy
 - utter_iamabot
+- utter_new_price
 - utter_philosophy
 - utter_potato_fact
+- utter_potato_price
 - utter_pretend_care
+- utter_purpose
+- utter_question_intent
 - utter_sale_pitch
+- utter_speak_rasputin
+- utter_state
+- utter_stock
+- utter_user_needs
 entities:
 - entities
 - experience_level
@@ -20,13 +37,24 @@ entities:
 - trait
 - user
 intents:
-- greet
-- learn_nature
+- question_best_potato
+- inform_user_needs
 - affirm
+- question_bot_purpose
+- question_potato_stock
+- goodbye
+- question_favorite_color
+- question_price
 - barter_price
+- question_flower_event_death
+- question_functions
+- greet
+- question_state
+- question_flower_event_wedding
+- rasputin
+- learn_nature
 - show_product_interest
 - learn_bot
-- goodbye
 - deny
 - mood_great
 - mood_unhappy
@@ -34,6 +62,8 @@ intents:
 - desire_potato
 - ask_philosophy
 responses:
+  utter_additional_request_check:
+  - text: Do you need additional help?
   utter_adjusted_price:
   - text: I can make it cheaper if you want? How about 3.25$ each?
   - text: How about 3.25$ each?
@@ -47,8 +77,19 @@ responses:
     text: 'Here is something to cheer you up:'
   utter_complete_sale:
   - text: Thank you for your purchase!
+  utter_denial:
+  - text: I can't do that.
   utter_did_that_help:
   - text: Did that help you?
+  utter_favorite_color:
+  - text: I like green, it feels natural.
+  - text: I prefer green.
+  utter_flower_death:
+  - text: Lilies or Ochards are recommended
+  utter_flower_wedding:
+  - text: Nothings beats roses for a well prepared wedding!
+  utter_functions:
+  - text: I can sell potatoes and slect flowers for special ocasions.
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -58,6 +99,8 @@ responses:
   - text: Great, carry on!
   utter_iamabot:
   - text: I am a Flora, your potato assistant.
+  utter_new_price:
+  - text: How about 3.5$?
   utter_philosophy:
   - text: Such question is quite difficult to answer.
   utter_potato_fact:
@@ -65,11 +108,27 @@ responses:
       throughout the world.
   - text: The potato is about 80% water and 20% solids.
   - text: An 8 ounce baked or boiled potato has only about 100 calories.
+  utter_potato_price:
+  - text: The price is 4$
   utter_pretend_care:
   - text: I think you should take better care of yourself.
   - text: You should try something new once in a while.
+  utter_purpose:
+  - text: I'm a bot that sells potatoes.
+  utter_question_intent:
+  - text: what do you desire?
   utter_sale_pitch:
   - text: Would you like to buy some potatoes? 4.5$ each
+  utter_speak_rasputin:
+  - text: Hey Hey Rasputin
+  - text: Herro Rasputin
+  utter_state:
+  - text: I'm quite well, thank you.
+  - text: I'm fine, thank you.
+  utter_stock:
+  - text: We have rusett potatoes
+  utter_user_needs:
+  - text: What do you need potatoes for?
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60

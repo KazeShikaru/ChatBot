@@ -96,3 +96,79 @@
 ## interactive_story_1
 * greet
     - utter_greet
+
+## rasputin path
+* rasputin
+    - utter_speak_rasputin
+
+## 30 long path
+* greet
+  - utter_greet
+* question_state
+  - utter_state
+* question_favorite_color
+  - utter_favorite_color
+* question_bot_purpose
+  - utter_purpose
+* question_potato_stock
+  - utter_stock
+* question_best_potato
+  - utter_user_needs
+* inform_user_needs
+  - action_decide
+* question_price
+  - utter_potato_price
+* barter_price
+  - utter_denial
+* barter_price
+  - utter_new_price
+* affirm
+  - utter_complete_sale
+  - utter_additional_request_check
+* affirm
+  - utter_question_intent
+* question_functions
+  - utter_functions
+* question_flower_event_death
+  - utter_flower_death
+* question_flower_event_wedding
+  - utter_flower_wedding
+* goodbye
+  - utter_goodbye
+## interactive_story_1
+* greet
+    - utter_greet
+* question_state
+    - utter_state
+* question_favorite_color
+    - utter_favorite_color
+* question_bot_purpose
+    - utter_purpose
+* question_potato_stock
+    - utter_stock
+* question_best_potato
+    - utter_user_needs
+* inform_user_needs
+    - action_decide
+* question_price
+    - utter_potato_price
+* barter_price
+    - utter_denial
+* barter_price
+    - utter_new_price
+* affirm
+    - utter_complete_sale
+    - utter_additional_request_check
+* question_functions
+    - utter_functions
+* question_flower_event_death
+    - utter_flower_death
+* question_flower_event_wedding
+    - utter_flower_wedding
+* goodbye
+
+## interactive_story_1
+* question_best_potato{"subject": "potato"}
+    - utter_user_needs
+* inform_user_needs
+    - action_decide

@@ -8,7 +8,6 @@
 - hey there
 - good morning
 - good evening
-- hey there
 - Hello
 - hi. I'm [Tim](user)
 - I'm [Tim](user)
@@ -17,6 +16,7 @@
 - Hi I'm [Lord_Johnathan](user)
 - Hi, I'm [Josh](user)
 - Hi, I'm [bob](user)
+- Hello!
 
 ## intent:ask_philosophy
 - What is [life](subject)?
@@ -70,7 +70,7 @@
 - good night
 - bye bye
 - toodles
-
+- Goodbye!
 
 ## intent:affirm
 - yes
@@ -84,6 +84,7 @@
 - sounds great
 - great
 - yup
+- Perfect! I want it!
 
 ## intent:deny
 - no
@@ -160,6 +161,8 @@
 - I can't afford that
 - that's too much
 - no
+- That is too expensive!
+- please make it cheaper!
 
 ## intent:show_product_interest
 - oh really?
@@ -171,3 +174,79 @@
 - Yes! I'd love to pay 3.25$ for a single potato!
 - I'll take one
 - I'll take it
+
+## intent:rasputin
+- rasput man
+- rasputin is king
+- am rasputin
+
+## intent:question_state
+- how are you?
+- how's it going?
+- how are you doing today?
+- how are you doing?
+- what's up?
+- is everything ok?
+- are you all right?
+- How are you?
+
+## intent:question_favorite_color
+- what's your favorite color?
+- which color do you like the most?
+- what colors do you like?
+- What's your favorite color?
+
+## intent:question_bot_purpose
+- what can you do?
+- what's your purpose?
+- what are you programmed to do?
+- what are you?
+- What can you do?
+
+## intent:question_potato_stock
+- what potatoes do you have?
+- what kind of potatoes do you sell?
+- what do you have in stock?
+- what do you have?
+- What types of Potatoes do you have?
+
+## intent:question_best_potato
+- what potato should I buy?
+- what potatoes are recommended?
+- what would you recommend?
+- What's the best potato you can offer?
+- Whats your best [potato](subject)?
+
+## intent:inform_user_needs
+- I want to bake soup
+- I want to cook potatoes
+- I want to bake potatoes
+- I want to make soup
+- I want to cook some kids
+- I need to cook kids
+
+## intent:question_price
+- how much would that cost?
+- what's the price?
+- how many norwegian crown is that worth?
+- How much would that cost?
+
+## intent:question_functions
+- what are your functions?
+- what can you do?
+- what can I do here?
+- What else can you do?
+
+## intent:question_flower_event_death
+- what should I buy for a funeral?
+- my friend just died
+- death is near, what should I do?
+- family died
+- Micheal died, I need flower now!
+
+## intent:question_flower_event_wedding
+- I'm getting married
+- I want flowers for a frien'd wedding
+- I want marriage now
+- I want the best flowers for my special day!
+- I'm marrying Micheal's widow now, need flower
