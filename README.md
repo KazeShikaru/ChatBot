@@ -2,6 +2,7 @@
 Project for COSC 310 Software Engineering
 
 /////////////Someone fix this if its wrong
+
 A chat bot created using the Rasa framework for AI assistants. This is an interactive conversational agent that responds to user input. We have created lists data sets of potential conversation topics that the user may ask about called intents as well as "stories" which represent conversation structures, and a domain of responses that the chat bot may use to respond with. The bot will try to decide which story to use, and act according to that conversation structure.
 
 ## Team Members:<br>
