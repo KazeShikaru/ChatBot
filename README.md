@@ -1,26 +1,28 @@
 # ChatBot
 Project for COSC 310 Software Engineering
 
-/////////////////////////////////////exaplain project here
+/////////////Someone fix this if its wrong
+A chat bot created using the Rasa framework for AI assistants. This is an interactive conversational agent that responds to user input. We have created lists data sets of potential conversation topics that the user may ask about called intents as well as "stories" which represent conversation structures, and a domain of responses that the chat bot may use to respond with. The bot will try to decide which story to use, and act according to that conversation structure.
 
 ## Team Members:<br>
   Carter Phillips<br>
   Ren Lin<br>
   Rickson Reichmann<br>
-  Just Will<br>
-
-Sponsor: Rick
+  Will McFarland<br>
 
 ## Language and Tools used:
 Main language: Python 3<br>
-Framework: rasa
-
-## Project Expected Timespan:
-3 lunar cycles.
+Framework: [rasa](https://rasa.com/)
 
 ## Project Structure and Organization
 
 ////////////explain how the yaml files work (intent response and sentiment)
+#### data/nlu.md:
+  Contains intents, which are topics that the user might ask about
+#### data/stories.md:
+  Contains common structuers or flows of conversations. This is how the bot knows how to respond to user input. The user's input gets classified as an intent, and then the stories tell the bot what to do in response to a given intent.
+#### domain.yml
+  A central file that links together all actions, intents, and entities defined in nlu and stories files. It also contains all specific responses or "utter"-ings for the bot. That is, the story specifies which response in the domain to use.
 
 ### Current Pipeline:
 -SpacyNLP<br>
