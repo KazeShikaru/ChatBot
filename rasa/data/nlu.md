@@ -189,6 +189,7 @@
 - is everything ok?
 - are you all right?
 - How are you?
+- Hey! What's up?
 
 ## intent:question_favorite_color
 - what's your favorite color?
@@ -209,6 +210,7 @@
 - what do you have in stock?
 - what do you have?
 - What types of Potatoes do you have?
+- What kind of potato do you have in stock?
 
 ## intent:question_best_potato
 - what potato should I buy?
@@ -250,3 +252,9 @@
 - I want marriage now
 - I want the best flowers for my special day!
 - I'm marrying Micheal's widow now, need flower
+
+## intent:question_favorite_potato
+- What's your favorite potato?
+
+## intent:unsatisfied_answer
+- That's a vague answer!

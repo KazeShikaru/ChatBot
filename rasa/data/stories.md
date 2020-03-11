@@ -172,3 +172,13 @@
     - utter_user_needs
 * inform_user_needs
     - action_decide
+
+## interactive_story_1
+* question_state
+    - utter_state
+* question_potato_stock
+    - utter_stock
+* question_favorite_potato
+    - utter_favorite_potato
+* unsatisfied_answer
+    - utter_appology

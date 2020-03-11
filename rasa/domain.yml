@@ -6,11 +6,13 @@ actions:
 - utter_adjusted_pitch
 - utter_adjusted_price
 - utter_adjusted_product
+- utter_appology
 - utter_cheer_up
 - utter_complete_sale
 - utter_denial
 - utter_did_that_help
 - utter_favorite_color
+- utter_favorite_potato
 - utter_flower_death
 - utter_flower_wedding
 - utter_functions
@@ -37,11 +39,14 @@ entities:
 - trait
 - user
 intents:
+- question_favorite_potato
+- unsatisfied_answer
+- question_potato_stock
+- question_state
 - question_best_potato
 - inform_user_needs
 - affirm
 - question_bot_purpose
-- question_potato_stock
 - goodbye
 - question_favorite_color
 - question_price
@@ -49,7 +54,6 @@ intents:
 - question_flower_event_death
 - question_functions
 - greet
-- question_state
 - question_flower_event_wedding
 - rasputin
 - learn_nature
@@ -72,6 +76,8 @@ responses:
   - text: We also sell Large potatoes and Smoll potatoes
   - text: How about mashed potatoes?
   - text: Would you like to try some fried potatoes?
+  utter_appology:
+  - text: Sorry, I cannot do more in my current state.
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -84,6 +90,8 @@ responses:
   utter_favorite_color:
   - text: I like green, it feels natural.
   - text: I prefer green.
+  utter_favorite_potato:
+  - text: I like all the potatoes!
   utter_flower_death:
   - text: Lilies or Ochards are recommended
   utter_flower_wedding:
