@@ -13,9 +13,7 @@ Sponsor: Rick
 
 ## Language and Tools used:
 Main language: Python 3<br>
-Framework: rasa, under MIT license<br>
-GUI Prototype: github.com/JiteshGaikwad/Rasa_CustomUI-v_2.0, under MIT license<br>
-Final GUI: under development<br>
+Framework: rasa
 
 ## Project Expected Timespan:
 3 lunar cycles.
@@ -45,7 +43,3 @@ If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The m
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
 <br>
-If you want to run the prototype version of the GUI you the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that open the file `index.html` inside `./rasa/Rasa_CustomUI-v_2.0-master/`.
-Click the button on the bottom-right side of the window to open the chat window. And send a message to start loading the models. It may take a while to process. After it finishes loading the bot will be working.<br>
-
-
