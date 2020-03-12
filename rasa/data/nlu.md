@@ -75,6 +75,7 @@
 - bye bye
 - toodles
 - Goodbye!
+- sayonara
 
 ## intent:affirm
 - yes
@@ -91,6 +92,7 @@
 - Perfect! I want it!
 - [Ok](subject) fair enough
 - You are welcome!
+- that's fair
 
 ## intent:deny
 - no
@@ -105,6 +107,7 @@
 - how about no
 - nope
 - no, thank you!
+- I'd rather not
 
 ## intent:mood_great
 - perfect
