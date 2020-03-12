@@ -1,6 +1,3 @@
-## rasputin
-* rasputin
-  - utter_rasputin
 
 ## happy path
 * greet

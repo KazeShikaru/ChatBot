@@ -69,6 +69,7 @@ intents:
 - question_flower_event_death
 - question_functions
 - show_product_interest
+#responses the bot can answer
 responses:
   utter_additional_request_check:
   - text: Do you need additional help?
