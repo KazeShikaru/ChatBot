@@ -7,7 +7,6 @@ pipeline:
 
 - name: "SpacyNLP"
 - name: "SpacyTokenizer"
-- name: "sentiment.SentimentAnalyzer" 
 - name: "SpacyFeaturizer"
 - name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"

@@ -1,23 +1,39 @@
 # actions the bot can to in response to intents
 actions:
-- utter_rasputin
+- /back
 - action_calculate
+- action_decide
 - persona_response
+- utter_additional_request_check
 - utter_adjusted_pitch
+- utter_adjusted_price
+- utter_adjusted_product
+- utter_appology
 - utter_cheer_up
 - utter_complete_sale
+- utter_denial
 - utter_did_that_help
+- utter_favorite_color
+- utter_favorite_potato
+- utter_flower_death
+- utter_flower_wedding
+- utter_functions
 - utter_goodbye
 - utter_greet
 - utter_happy
 - utter_iamabot
+- utter_new_price
 - utter_philosophy
 - utter_potato_fact
+- utter_potato_price
 - utter_pretend_care
+- utter_purpose
+- utter_question_intent
 - utter_sale_pitch
-- utter_question
-- utter_apology
-#all possible entities the model can recognize (subject, people names, etc...)
+- utter_speak_rasputin
+- utter_state
+- utter_stock
+- utter_user_needs
 entities:
 - entities
 - experience_level
@@ -26,25 +42,36 @@ entities:
 - user
 #intents: intents the model can recognize from a user prompt
 intents:
-- greet
-- ask_philosophy
-- ask_mood
-- learn_bot
-- learn_future
-- goodbye
-- affirm
+- desire_potato
+- question_state
 - deny
-- mood_great
-- mood_unhappy
 - bot_challenge
+- question_bot_purpose
+- goodbye
 - learn_nature
-- bart_price
-- show_product_interest
+- mood_unhappy
+- question_best_potato
+- affirm
+- mood_great
+- ask_philosophy
+- inform_user_needs
+- learn_bot
+- barter_price
+- question_potato_stock
 - rasputin
-#examples of response to intents with a data specified version of the action
+- question_flower_event_wedding
+- stop
+- greet
+- question_favorite_potato
+- unsatisfied_answer
+- question_favorite_color
+- question_price
+- question_flower_event_death
+- question_functions
+- show_product_interest
 responses:
-  utter_rasputin:
-  - text: Hey, hey, hey, hey, hey, hey, hey, hey Hey, hey, hey, hey, hey, hey, hey, hey Hey, hey, hey, hey, hey, hey, hey, hey There lived a certain man in Russia long ago He was big and strong, in his eyes a flaming glow Most people looked at him with terror and with fear But to Moscow chicks he was such a lovely dear He could preach the Bible like a preacher Full of ecstasy and fire But he also was the kind of teacher Women would desire Ra ra Rasputin Lover of the Russian queen There was a cat that really was gone Ra ra Rasputin Russia's greatest love machine It was a shame how he carried on He ruled the Russian land and never mind the Czar But the kazachok he danced really wunderbar In all affairs of state he was the man to please But he was real great when he had a girl to squeeze For the queen he was no wheeler dealer Though she'd heard the things he'd done She believed he was a holy healer Who would heal her son Ra ra Rasputin Lover of the Russian queen There was a cat that really was gone Ra ra Rasputin Russia's greatest love machine It was a shame how he carried on But when his drinking and lusting And his hunger for power Became known to more and more people The demands to do something About this outrageous man Became louder and louder Hey, hey, hey, hey, hey, hey, hey, hey Hey, hey, hey, hey, hey, hey, hey, hey Hey, hey, hey, hey, hey, hey, hey, hey Hey, hey, hey, hey, hey, hey, hey, hey "This man's just got to go", declared his enemies But the ladies begged, "don't you try to do it, please" No doubt this Rasputin had lots of hidden charms Though he was a brute, they just fell into his arms Then one night some men of higher standing Set a trap, they're not to blame "Come to visit us", they kept demanding And he really came Ra ra Rasputin Lover of the Russian queen They put some poison into his wine Ra ra Rasputin Russia's greatest love machine He drank it all and said, "I feel fine" Ra ra Rasputin Lover of the Russian queen They didn't quit, they wanted his head Ra ra Rasputin Russia's greatest love machine And so they shot him 'til he was dead Oh, those Russians
+  utter_additional_request_check:
+  - text: Do you need additional help?
   utter_adjusted_price:
   - text: I can make it cheaper if you want? How about 3.25$ each?
   - text: How about 3.25$ each?
@@ -53,13 +80,28 @@ responses:
   - text: We also sell Large potatoes and Smoll potatoes
   - text: How about mashed potatoes?
   - text: Would you like to try some fried potatoes?
+  utter_appology:
+  - text: Sorry, I cannot do more in my current state.
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
   utter_complete_sale:
   - text: Thank you for your purchase!
+  utter_denial:
+  - text: I can't do that.
   utter_did_that_help:
   - text: Did that help you?
+  utter_favorite_color:
+  - text: I like green, it feels natural.
+  - text: I prefer green.
+  utter_favorite_potato:
+  - text: I like all the potatoes!
+  utter_flower_death:
+  - text: Lilies or Ochards are recommended
+  utter_flower_wedding:
+  - text: Nothings beats roses for a well prepared wedding!
+  utter_functions:
+  - text: I can sell potatoes and slect flowers for special ocasions.
   utter_goodbye:
   - text: Bye
   - text: Goodbye
@@ -70,6 +112,8 @@ responses:
   - text: Great, carry on!
   utter_iamabot:
   - text: I am a Flora, your potato assistant.
+  utter_new_price:
+  - text: How about 3.5$?
   utter_philosophy:
   - text: Such question is quite difficult to answer.
   utter_potato_fact:
@@ -77,20 +121,28 @@ responses:
       throughout the world.
   - text: The potato is about 80% water and 20% solids.
   - text: An 8 ounce baked or boiled potato has only about 100 calories.
+  utter_potato_price:
+  - text: The price is 4$
   utter_pretend_care:
   - text: I think you should take better care of yourself.
   - text: You should try something new once in a while.
+  utter_purpose:
+  - text: I'm a bot that sells potatoes.
+  utter_question_intent:
+  - text: what do you desire?
   utter_sale_pitch:
   - text: Would you like to buy some potatoes? 4.5$ each
-  utter_question:
-  - text: What is your favourite colour?
-  - text: How are you doing?
-  - text: How old are you?
-  utter_apology:
-  - text: Sorry about that!
-  - text: I'm sorry!
-  - text: sorry
-#chat session (a conversation) settings
+  utter_speak_rasputin:
+  - text: Hey Hey Rasputin
+  - text: Herro Rasputin
+  utter_state:
+  - text: I'm quite well, thank you.
+  - text: I'm fine, thank you.
+  utter_stock:
+  - text: We have rusett potatoes
+  utter_user_needs:
+  - text: What do you need potatoes for?
+#session configuration
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
@@ -102,6 +154,6 @@ slots:
     - low
     - medium
     - high
+    - __other__
   user:
     type: text
-    

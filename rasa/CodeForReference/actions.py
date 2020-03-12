@@ -23,3 +23,15 @@ class ActionCalculate(Action):
         
         dispatcher.utter_message(text="2+2=4")
         return []
+
+class ActionDecide(Action):
+
+    def name(self) -> Text:
+        return "action_decide"
+
+    def run(self, dispatcher: CollectingDispatcher, 
+	tracker: Tracker, 
+	domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        dispatcher.utter_message(text="Reset Potatoes are recommended!")
+        return []
