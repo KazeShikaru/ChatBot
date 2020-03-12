@@ -53,11 +53,6 @@
 * affirm
    - utter_complete_sale
 
-## interactive_story_1
-* greet
-    - utter_greet
-* learn_bot
-    - persona_response
 
 ## interactive_story_1
 * greet

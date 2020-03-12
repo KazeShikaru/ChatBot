@@ -2,7 +2,6 @@ actions:
 - /back
 - action_calculate
 - action_decide
-- persona_response
 - utter_additional_request_check
 - utter_adjusted_pitch
 - utter_adjusted_price
