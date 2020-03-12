@@ -21,10 +21,12 @@ Framework: [rasa](https://rasa.com/)
 
 **domain.yml:** A central file that links together all actions, intents, and entities defined in nlu and stories files. It also contains all specific responses or "utter"-ings for the bot. That is, the story specifies which response in the domain to use.
 
-### Current Pipeline:
+## Current Pipeline:
+The pipeline consists of multiple pieces of codes designed to transform data from one step to the next in order to achieve an overall goal.
+Currently our pipeline is composed of these following components:
 -SpacyNLP<br>
 -SpacyTokenizer<br>
--SentimentAnalyzer<br>
+//-SentimentAnalyzer<br>
 -SpacyFeaturizer<br>
 -RegexFeaturizer<br>
 -CRFEntityExtractor<br>
