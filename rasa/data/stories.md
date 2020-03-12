@@ -182,3 +182,46 @@
     - utter_favorite_potato
 * unsatisfied_answer
     - utter_appology
+
+## interactive_story_1
+* rasputin
+    - utter_speak_rasputin
+* question_potato_stock
+    - utter_stock
+* question_best_potato
+    - utter_favorite_potato
+* learn_bot
+    - utter_favorite_color
+* mood_unhappy{"subject": "sad"}
+    - utter_cheer_up
+    - utter_did_that_help
+* mood_great
+    - utter_happy
+* ask_philosophy
+    - utter_philosophy
+* inform_user_needs
+    - utter_question_intent
+* learn_nature
+    - utter_potato_fact
+* learn_nature
+    - utter_potato_fact
+* bot_challenge
+    - utter_appology
+* mood_unhappy
+    - utter_state
+* desire_potato{"subject": "potato"}
+    - utter_potato_price
+* barter_price
+    - utter_adjusted_pitch
+    - utter_new_price
+* barter_price
+    - utter_adjusted_pitch
+* affirm{"subject": "Ok"}
+    - utter_complete_sale
+* affirm
+    - utter_additional_request_check
+* deny
+    - utter_goodbye
+* goodbye
+    - /back
+* stop

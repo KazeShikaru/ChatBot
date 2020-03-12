@@ -1,4 +1,5 @@
 actions:
+- /back
 - action_calculate
 - action_decide
 - persona_response
@@ -39,32 +40,33 @@ entities:
 - trait
 - user
 intents:
-- question_favorite_potato
-- unsatisfied_answer
-- question_potato_stock
+- desire_potato
 - question_state
-- question_best_potato
-- inform_user_needs
-- affirm
+- deny
+- bot_challenge
 - question_bot_purpose
 - goodbye
+- learn_nature
+- mood_unhappy
+- question_best_potato
+- affirm
+- mood_great
+- ask_philosophy
+- inform_user_needs
+- learn_bot
+- barter_price
+- question_potato_stock
+- rasputin
+- question_flower_event_wedding
+- stop
+- greet
+- question_favorite_potato
+- unsatisfied_answer
 - question_favorite_color
 - question_price
-- barter_price
 - question_flower_event_death
 - question_functions
-- greet
-- question_flower_event_wedding
-- rasputin
-- learn_nature
 - show_product_interest
-- learn_bot
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- desire_potato
-- ask_philosophy
 responses:
   utter_additional_request_check:
   - text: Do you need additional help?
@@ -147,5 +149,6 @@ slots:
     - low
     - medium
     - high
+    - __other__
   user:
     type: text
