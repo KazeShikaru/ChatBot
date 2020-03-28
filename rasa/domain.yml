@@ -68,6 +68,8 @@ intents:
 - question_flower_event_death
 - question_functions
 responses:
+  persona_response:
+  - text: I enjoy all [trait]s equally
   utter_additional_request_check:
   - text: Do you need additional help?
   utter_adjusted_price:
