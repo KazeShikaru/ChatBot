@@ -182,6 +182,7 @@
 - please make it cheaper!
 - Thats too expensive
 - can it be 3 dollars?
+- how much do they cost?
 
 ## intent:show_product_interest
 - oh really?
@@ -193,12 +194,14 @@
 - Yes! I'd love to pay 3.25$ for a single potato!
 - I'll take one
 - I'll take it
+- okay, I'll take 6
 
 ## intent:rasputin
 - rasput man
 - rasputin is king
 - am rasputin
 - rasputin
+- Rasputin
 
 ## intent:question_state
 - how are you?
@@ -210,6 +213,7 @@
 - are you all right?
 - How are you?
 - Hey! What's up?
+- How's it going?
 
 ## intent:question_favorite_color
 - what's your favorite color?
@@ -233,6 +237,7 @@
 - What types of Potatoes do you have?
 - What kind of potato do you have in stock?
 - What kind of potatoes do you have?
+- do you sell potatoes?
 
 ## intent:question_best_potato
 - what potato should I buy?

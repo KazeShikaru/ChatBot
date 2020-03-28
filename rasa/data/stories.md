@@ -226,3 +226,22 @@
 * goodbye
     - /back
 * stop
+
+## interactive_story_1
+* greet
+    - utter_greet
+* question_state
+    - utter_state
+* question_potato_stock
+    - utter_stock
+* barter_price
+    - utter_potato_price
+* show_product_interest
+    - utter_complete_sale
+* rasputin
+    - utter_speak_rasputin
+* goodbye
+    - utter_goodbye
+* stop
+    - utter_greet
+* stop

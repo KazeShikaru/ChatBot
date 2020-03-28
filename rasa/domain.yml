@@ -1,4 +1,3 @@
-# actions the bot can to in response to intents
 actions:
 - /back
 - action_calculate
@@ -40,14 +39,19 @@ entities:
 - subject
 - trait
 - user
-#intents: intents the model can recognize from a user prompt
 intents:
-- desire_potato
+- show_product_interest
+- greet
+- goodbye
+- rasputin
+- question_potato_stock
+- stop
+- barter_price
 - question_state
+- desire_potato
 - deny
 - bot_challenge
 - question_bot_purpose
-- goodbye
 - learn_nature
 - mood_unhappy
 - question_best_potato
@@ -56,20 +60,13 @@ intents:
 - ask_philosophy
 - inform_user_needs
 - learn_bot
-- barter_price
-- question_potato_stock
-- rasputin
 - question_flower_event_wedding
-- stop
-- greet
 - question_favorite_potato
 - unsatisfied_answer
 - question_favorite_color
 - question_price
 - question_flower_event_death
 - question_functions
-- show_product_interest
-#responses the bot can answer
 responses:
   utter_additional_request_check:
   - text: Do you need additional help?
@@ -143,11 +140,9 @@ responses:
   - text: We have rusett potatoes
   utter_user_needs:
   - text: What do you need potatoes for?
-#session configuration
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
-#categories of feeling levels it can detect
 slots:
   experience_level:
     type: categorical
