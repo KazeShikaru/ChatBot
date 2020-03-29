@@ -10,6 +10,7 @@ actions:
 - utter_appology
 - utter_cheer_up
 - utter_complete_sale
+- utter_current_bot_action
 - utter_denial
 - utter_did_that_help
 - utter_favorite_color
@@ -22,6 +23,7 @@ actions:
 - utter_happy
 - utter_iamabot
 - utter_new_price
+- utter_optimism
 - utter_philosophy
 - utter_potato_fact
 - utter_potato_price
@@ -40,9 +42,11 @@ entities:
 - trait
 - user
 intents:
+- question_weather
+- greet
+- question_current_bot_action
 - learn_bot
 - affirm
-- greet
 - deny
 - ask_philosophy
 - goodbye
@@ -88,6 +92,8 @@ responses:
     text: 'Here is something to cheer you up:'
   utter_complete_sale:
   - text: Thank you for your purchase!
+  utter_current_bot_action:
+  - text: I'm trying to sell potatoes
   utter_denial:
   - text: I can't do that.
   utter_did_that_help:
@@ -115,6 +121,8 @@ responses:
   - text: I am a Flora, your potato assistant.
   utter_new_price:
   - text: How about 3.5$?
+  utter_optimism:
+  - text: It will hopefully be good.
   utter_philosophy:
   - text: Such question is quite difficult to answer.
   utter_potato_fact:

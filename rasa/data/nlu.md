@@ -309,3 +309,10 @@
 
 ## intent:state_name
 - My name is [Will](user)
+
+## intent:question_current_bot_action
+- What are you doing right now?
+- What are you trying to do?
+
+## intent:question_weather
+- How's the weather?

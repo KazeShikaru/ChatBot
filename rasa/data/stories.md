@@ -290,3 +290,14 @@
     - utter_functions
 * goodbye
     - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet
+* question_current_bot_action
+    - utter_greet
+    - utter_current_bot_action
+* question_current_bot_action
+    - utter_current_bot_action
+* question_weather
+    - utter_optimism
