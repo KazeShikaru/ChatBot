@@ -245,3 +245,48 @@
 * stop
     - utter_greet
 * stop
+
+## interactive_story_1
+* greet
+    - utter_greet
+* learn_bot{"trait": "colour"}
+    - persona_response
+
+## interactive_story_1
+* greet
+    - utter_greet
+* question_best_potato
+    - utter_favorite_potato
+* learn_bot
+    - utter_favorite_color
+* mood_great
+    - utter_iamabot
+* greet{"name": "Will"}
+    - utter_greet
+* learn_bot
+    - utter_stock
+
+## interactive_story_2
+* greet
+    - utter_greet
+* state_name{"name": "Will"}
+    - utter_greet
+
+## interactive_story_1
+* greet{"user": "will"}
+    - slot{"user": "will"}
+    - utter_greet
+* learn_bot
+    - utter_iamabot
+* ask_philosophy{"subject": "life"}
+    - utter_philosophy
+* affirm
+    - utter_sale_pitch
+* deny{"subject": "potatoes"}
+    - utter_adjusted_product
+* deny
+    - utter_adjusted_price
+* learn_bot
+    - utter_functions
+* goodbye
+    - utter_goodbye

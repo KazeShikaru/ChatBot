@@ -17,6 +17,10 @@
 - Hi, I'm [Josh](user)
 - Hi, I'm [bob](user)
 - Hello!
+- hello there
+- nice to meet you, my name is [Will](user)
+- Hello there
+- hi, my name is [will](user)
 
 ## intent:ask_philosophy
 - What is [life](subject)?
@@ -31,6 +35,7 @@
 - Why
 - What is the meaning of [life](subject)
 - is the heatdeath of the universe imminent?
+- what is [life](subject)?
 
 ## intent:ask_mood
 - How are you?
@@ -58,6 +63,10 @@
 - Where did you come from?
 - and roll?
 - what is your favorite color?
+- what's your favourite [colour](trait)?
+- what's your favourite color?
+- what's your name?
+- what else can you do?
 
 ## intent:learn_future
 - How will I die?
@@ -75,6 +84,7 @@
 - bye bye
 - toodles
 - Goodbye!
+- Sorry I have to go
 
 ## intent:affirm
 - yes
@@ -91,6 +101,7 @@
 - Perfect! I want it!
 - [Ok](subject) fair enough
 - You are welcome!
+- I guess that's fair
 
 ## intent:deny
 - no
@@ -105,6 +116,8 @@
 - how about no
 - nope
 - no, thank you!
+- no thanks, I don't really like [potatoes](subject)
+- no thanks
 
 ## intent:mood_great
 - perfect
@@ -120,6 +133,7 @@
 - awesome
 - stellar
 - Yes, a little
+- I think I love you
 
 ## intent:mood_unhappy
 - sad
@@ -246,6 +260,7 @@
 - What's the best potato you can offer?
 - Whats your best [potato](subject)?
 - What is your favorite potato?
+- what's your favorite potato?
 
 ## intent:inform_user_needs
 - I want to bake soup
@@ -291,3 +306,6 @@
 
 ## intent:desire_potato
 - How much for a [potato](subject)?
+
+## intent:state_name
+- My name is [Will](user)
