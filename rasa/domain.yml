@@ -42,18 +42,20 @@ entities:
 - trait
 - user
 intents:
-- question_weather
-- greet
-- question_current_bot_action
 - learn_bot
+- show_product_interest
+- goodbye
+- question_bot_purpose
+- greet
+- inform_user_needs
 - affirm
+- question_weather
+- question_current_bot_action
 - deny
 - ask_philosophy
-- goodbye
 - question_best_potato
 - state_name
 - mood_great
-- show_product_interest
 - rasputin
 - question_potato_stock
 - stop
@@ -61,10 +63,8 @@ intents:
 - question_state
 - desire_potato
 - bot_challenge
-- question_bot_purpose
 - learn_nature
 - mood_unhappy
-- inform_user_needs
 - question_flower_event_wedding
 - question_favorite_potato
 - unsatisfied_answer

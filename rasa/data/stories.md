@@ -301,3 +301,19 @@
     - utter_current_bot_action
 * question_weather
     - utter_optimism
+
+## interactive_story_1
+* greet
+    - utter_greet
+* learn_bot
+    - persona_response
+* question_bot_purpose
+    - utter_purpose
+* show_product_interest
+    - utter_sale_pitch
+* affirm
+    - utter_user_needs
+* inform_user_needs
+    - action_decide
+* goodbye
+    - utter_goodbye

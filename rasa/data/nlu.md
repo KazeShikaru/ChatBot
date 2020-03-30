@@ -67,6 +67,7 @@
 - what's your favourite color?
 - what's your name?
 - what else can you do?
+- what are you
 
 ## intent:learn_future
 - How will I die?
@@ -85,6 +86,7 @@
 - toodles
 - Goodbye!
 - Sorry I have to go
+- ok thanks bye
 
 ## intent:affirm
 - yes
@@ -102,6 +104,7 @@
 - [Ok](subject) fair enough
 - You are welcome!
 - I guess that's fair
+- Yes I would
 
 ## intent:deny
 - no
@@ -209,6 +212,7 @@
 - I'll take one
 - I'll take it
 - okay, I'll take 6
+- may I buy some potatoes?
 
 ## intent:rasputin
 - rasput man
@@ -242,6 +246,7 @@
 - what are you?
 - What can you do?
 - What is your purpose?
+- what is your purpose
 
 ## intent:question_potato_stock
 - what potatoes do you have?
@@ -270,6 +275,7 @@
 - I want to cook some kids
 - I need to cook kids
 - hey
+- To make fries
 
 ## intent:question_price
 - how much would that cost?
