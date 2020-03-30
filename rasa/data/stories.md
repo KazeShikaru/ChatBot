@@ -58,7 +58,7 @@
 * greet
     - utter_greet
 * learn_bot
-    - persona_response
+    - utter_enjoy_equal
 
 ## greet learn and buy
 * greet
@@ -250,7 +250,7 @@
 * greet
     - utter_greet
 * learn_bot{"trait": "colour"}
-    - persona_response
+    - utter_enjoy_equal
 
 ## interactive_story_1
 * greet
@@ -306,7 +306,7 @@
 * greet
     - utter_greet
 * learn_bot
-    - persona_response
+    - utter_enjoy_equal
 * question_bot_purpose
     - utter_purpose
 * show_product_interest
@@ -315,5 +315,21 @@
     - utter_user_needs
 * inform_user_needs
     - action_decide
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet
+* learn_bot{"subject": "music"}
+    - utter_purpose
+* affirm
+    - utter_sale_pitch
+* show_product_interest
+    - utter_complete_sale
+* ask_philosophy
+    - utter_philosophy
+* ask_philosophy
+    - utter_what_potato
 * goodbye
     - utter_goodbye

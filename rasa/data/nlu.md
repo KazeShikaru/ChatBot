@@ -36,6 +36,8 @@
 - What is the meaning of [life](subject)
 - is the heatdeath of the universe imminent?
 - what is [life](subject)?
+- where is it?
+- where is my fucking potato?
 
 ## intent:ask_mood
 - How are you?
@@ -68,6 +70,7 @@
 - what's your name?
 - what else can you do?
 - what are you
+- do you listen to [music](subject)?
 
 ## intent:learn_future
 - How will I die?
@@ -87,6 +90,7 @@
 - Goodbye!
 - Sorry I have to go
 - ok thanks bye
+- I think we're done here
 
 ## intent:affirm
 - yes
@@ -213,6 +217,7 @@
 - I'll take it
 - okay, I'll take 6
 - may I buy some potatoes?
+- sure, I could go for a juicy potato right about now
 
 ## intent:rasputin
 - rasput man
