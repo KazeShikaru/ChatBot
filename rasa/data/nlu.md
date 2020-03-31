@@ -23,6 +23,10 @@
 - hi, my name is [will](user)
 - Hello Friend
 
+## intent:intent_ask_mood
+-How are you?
+-How are you doing?
+
 ## intent:ask_philosophy
 - What is [life](subject)?
 - If a tree falls and no one is around, does it make a sound?
@@ -50,6 +54,7 @@
 - What's up
 - whats up
 - what's up?
+- Hello how are you?
 
 ## intent:learn_bot
 - What is your favorite [colour](trait)?

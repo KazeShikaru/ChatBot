@@ -45,6 +45,7 @@ entities:
 - trait
 - user
 intents:
+- ask_mood
 - greet
 - goodbye
 - ask_philosophy
