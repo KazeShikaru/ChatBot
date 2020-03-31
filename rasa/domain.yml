@@ -42,6 +42,8 @@ entities:
 - subject
 - trait
 - user
+- entity_sentiment
+- entity_name
 intents:
 - goodbye
 - ask_philosophy
@@ -166,4 +168,8 @@ slots:
     - high
     - __other__
   user:
+    type: text
+  entity_name:
+    type: text
+  entity_sentiment:
     type: text

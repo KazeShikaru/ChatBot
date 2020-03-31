@@ -37,7 +37,7 @@ class SentimentAnalyzer(Component):
         #return the highest sentiment in the message
         key, value = max(res.items(), key=lambda x: x[1])
         #coverts the highest sentiment and how confident it is to rasa style
-        entity = self.convert_to_rasa(key, value)
+        entity = "sad"#self.convert_to_rasa(key, value)
         #set the entities contained on the message
         #   name or subject contained on the message
         message.set("entities", [entity], add_to_output=True)
