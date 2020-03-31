@@ -44,3 +44,10 @@ If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The m
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
 <br>
+## Features that can be converted to APIs
+
+
+## Sample Output
+
+
+## Features Implemented (since last version)
