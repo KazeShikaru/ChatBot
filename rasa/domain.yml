@@ -38,17 +38,17 @@ actions:
 - utter_what_potato
 entities:
 - entities
+- entity_name
+- entity_sentiment
 - experience_level
 - subject
 - trait
 - user
-- entity_sentiment
-- entity_name
 intents:
+- greet
 - goodbye
 - ask_philosophy
 - affirm
-- greet
 - learn_bot
 - show_product_interest
 - question_bot_purpose
@@ -160,6 +160,10 @@ session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
+  entity_name:
+    type: text
+  entity_sentiment:
+    type: text
   experience_level:
     type: categorical
     values:
@@ -168,8 +172,4 @@ slots:
     - high
     - __other__
   user:
-    type: text
-  entity_name:
-    type: text
-  entity_sentiment:
     type: text

@@ -11,7 +11,7 @@ pipeline:
 - name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
 - name: "EntitySynonymMapper"
-#- name: "sentiment.SentimentAnalyzer"
+- name: "sentiment.SentimentAnalyzer"
 - name: "SklearnIntentClassifier" 
 
 # Configuration for Rasa Core.

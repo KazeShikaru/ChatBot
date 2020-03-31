@@ -21,6 +21,7 @@
 - nice to meet you, my name is [Will](user)
 - Hello there
 - hi, my name is [will](user)
+- Hello Friend
 
 ## intent:ask_philosophy
 - What is [life](subject)?
