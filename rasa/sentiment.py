@@ -42,9 +42,9 @@ class SentimentAnalyzer(Component):
         #set the entities contained on the message
         #   name or subject contained on the message
         #message.set("entities", [entity], add_to_output=True)
-        f = open("tempData/sentiment.txt", "w")
-        f.write(str(key)+","+str(value))
-        f.close()
+        #f = open("tempData/sentiment.txt", "w")
+        #f.write(str(key)+","+str(value))
+        #f.close()
 
     #does nothing as model is already pre-trained
     def persist(self, model_dir,yam):
