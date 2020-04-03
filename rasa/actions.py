@@ -35,3 +35,14 @@ class ActionDecide(Action):
         
         dispatcher.utter_message(text="Reset Potatoes are recommended!")
         return []
+
+class ActionFlowerRecommendation(Action):
+    def name(self) -> Text:
+        return "action_flower_recomendation"
+
+    def run(self, dispatcher: CollectingDispatcher, 
+        f = open("tempData/entities.txt", "w")
+        
+        
+        dispatcher.utter_message(text="Reset Potatoes are recommended!")
+        return []
