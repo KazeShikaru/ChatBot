@@ -48,6 +48,10 @@ When done you can run the command `rasa shell` to start the command prompt versi
 
 
 ## Sample Output
-
+![](images/convo1.PNG)
+![](images/convo2.PNG)
+![](images/convo3.PNG)
+![](images/convo4.PNG)
+![](images/convo5.PNG)
 
 ## Features Implemented (since last version)
