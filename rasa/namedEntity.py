@@ -24,6 +24,9 @@ class NamedEntityRecognizer(Component):
        tagged = nltk.pos_tag(tokens)
        entities = nltk.chunk.ne_chunk(tagged)
        print(str(entities))
+       f = open("tempData/entities.txt", "w")
+       f.write(str(entities))
+       f.close()
 
 
     #does nothing as model is already pre-trained

@@ -48,6 +48,12 @@ When done you can run the command `rasa shell` to start the command prompt versi
 
 
 ## Sample Output
-
+![](images/convo1.PNG)
+![](images/convo2.PNG)
+![](images/convo3.PNG)
+![](images/convo4.PNG)
+![](images/convo5.PNG)
 
 ## Features Implemented (since last version)
+Functions added include a modified flower and potato recommendation system, a custom gui, more training, sentiment analysis and entity recognition.
+Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
