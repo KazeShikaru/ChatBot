@@ -56,7 +56,7 @@ If you want to run the GUI version. First you need to install pyspellchecker on 
 ![](images/convo5.PNG)
 
 ## Features Implemented (since last version)
-Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis and entity recognition.
+Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis, entity recognition, and spelling checker on the gui.<br>
 Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
 
 
