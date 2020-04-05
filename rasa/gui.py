@@ -6,6 +6,14 @@ from botMessageAPI import botInput
 WIDTH = 360
 HEIGTH = 480
 
+#test bot input
+def run():
+    try:
+        botInput('a', 'b')
+        pass
+    except Exception as e:
+        raise
+
 #initialize some objects
 window = None
 chat_body = None
@@ -68,4 +76,3 @@ button.place(x= WIDTH-(WIDTH*.18)-5,
 
 #initialize program loop    
 window.mainloop()
-

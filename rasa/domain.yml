@@ -2,6 +2,7 @@ actions:
 - /back
 - action_calculate
 - action_decide
+- action_flower_recommendation
 - utter_additional_request_check
 - utter_adjusted_pitch
 - utter_adjusted_price
@@ -41,10 +42,12 @@ entities:
 - entity_name
 - entity_sentiment
 - experience_level
+- sentiment
 - subject
 - trait
 - user
 intents:
+- question_flower
 - ask_mood
 - greet
 - goodbye
@@ -90,8 +93,7 @@ responses:
   utter_appology:
   - text: Sorry, I cannot do more in my current state.
   utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
+  - text: "I'm sorry to hear that, be happy please."
   utter_complete_sale:
   - text: Thank you for your purchase!
   utter_current_bot_action:

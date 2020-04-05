@@ -26,7 +26,7 @@ The pipeline consists of multiple pieces of codes designed to transform data fro
 Currently our pipeline is composed of these following components:
 -SpacyNLP<br>
 -SpacyTokenizer<br>
-//-SentimentAnalyzer<br>
+-SentimentAnalyzer<br>
 -SpacyFeaturizer<br>
 -RegexFeaturizer<br>
 -CRFEntityExtractor<br>
@@ -43,7 +43,8 @@ Inside it change the directory to the folder where your project is located. Ther
 If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The model version is too old to be loaded by this Rasa NLU instance.`. You may need to re-train the data before starting it. So, run `rasa train`. This may take a while to complete.<br>
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
-<br>
+<br><br>
+If you want to run the GUI version. First you need to install pyspellchecker on rasa enviroment and on the your computer `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.<br>
 ## Features that can be converted to APIs
 
 
@@ -55,5 +56,8 @@ When done you can run the command `rasa shell` to start the command prompt versi
 ![](images/convo5.PNG)
 
 ## Features Implemented (since last version)
-Functions added include a modified flower and potato recommendation system, a custom gui, more training, sentiment analysis and entity recognition.
+Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis, entity recognition, and spelling checker on the gui.<br>
 Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
+
+
+

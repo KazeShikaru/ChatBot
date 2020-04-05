@@ -5,16 +5,14 @@ import sys
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-sock.bind(('localhost', 28858))
-
+sock.bind(('', 25565))
 sock.listen()
 
 connection, address = sock.accept()
 
 while True:
 
-	message = connection.recv(1024)
-
+	message = connection.recv(1024).decode('utf-8')
 	if message:
 		print('Message Received: ' + message)
 		payload = {'message': message, 'sender':"username"}
@@ -23,7 +21,7 @@ while True:
 		start = r.text.find('text":"')+7
 		end = r.text.find('"}]')
 		print('Our message: ' + r.text[start:end])
-		connection.sendall(r.text[start : end ])
+		connection.sendall((r.text[start : end ] + '\n').encode('utf-8'))
 		if input == "stop":
 			break;
 
