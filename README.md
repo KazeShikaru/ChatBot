@@ -44,6 +44,7 @@ If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The m
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
 <br>
+If you want to run the GUI version. First you need to install pyspellchecker on rasa enviroment `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.<br>
 ## Features that can be converted to APIs
 
 
@@ -57,3 +58,6 @@ When done you can run the command `rasa shell` to start the command prompt versi
 ## Features Implemented (since last version)
 Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis and entity recognition.
 Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
+
+
+
