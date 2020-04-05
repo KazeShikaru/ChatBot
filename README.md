@@ -26,7 +26,7 @@ The pipeline consists of multiple pieces of codes designed to transform data fro
 Currently our pipeline is composed of these following components:
 -SpacyNLP<br>
 -SpacyTokenizer<br>
-//-SentimentAnalyzer<br>
+-SentimentAnalyzer<br>
 -SpacyFeaturizer<br>
 -RegexFeaturizer<br>
 -CRFEntityExtractor<br>
@@ -44,7 +44,7 @@ If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The m
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
 <br>
-If you want to run the GUI version. First you need to install pyspellchecker on rasa enviroment `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.<br>
+If you want to run the GUI version. First you need to install pyspellchecker on rasa enviroment and on the your computer `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.<br>
 ## Features that can be converted to APIs
 
 
