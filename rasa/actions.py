@@ -13,6 +13,7 @@ from rasa_sdk.executor import CollectingDispatcher
 import operator
 
 def suggestFlower():
+    #Recommends flowers
     f = open("tempData/entities.txt", "r")
     lineRead = f.readlines()
     wordTally = {
