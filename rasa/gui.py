@@ -3,6 +3,11 @@ from spellingCorrector import process_str
 from botMessageAPI import botInput
 
 def run():
+    try:
+        botInput('a', 'b')
+        pass
+    except Exception as e:
+        raise
     WIDTH = 360
     HEIGTH = 480
 
