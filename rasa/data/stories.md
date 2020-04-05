@@ -338,3 +338,31 @@
 * greet
     - utter_greet
 
+
+## interactive_story_1
+* question_flower{"sentiment": "love"}
+    - action_flower_recommendation
+* question_flower{"sentiment": "death"}
+    - action_flower_recommendation
+
+## interactive_story_1
+* question_flower{"sentiment": "hatred"}
+    - action_flower_recommendation
+
+## interactive_story_1
+* question_flower{"sentiment": "death"}
+    - action_flower_recommendation
+
+## interactive_story_1
+* question_flower{"sentiment": "love"}
+    - action_flower_recommendation
+
+## interactive_story_1
+* question_flower
+    - action_flower_recommendation
+
+## interactive_story_1
+* question_flower
+    - action_flower_recommendation
+* question_flower
+    - action_flower_recommendation

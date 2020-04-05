@@ -2,6 +2,7 @@ actions:
 - /back
 - action_calculate
 - action_decide
+- action_flower_recommendation
 - utter_additional_request_check
 - utter_adjusted_pitch
 - utter_adjusted_price
@@ -41,10 +42,12 @@ entities:
 - entity_name
 - entity_sentiment
 - experience_level
+- sentiment
 - subject
 - trait
 - user
 intents:
+- question_flower
 - ask_mood
 - greet
 - goodbye

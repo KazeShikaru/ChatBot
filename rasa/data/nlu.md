@@ -24,8 +24,8 @@
 - Hello Friend
 
 ## intent:intent_ask_mood
--How are you?
--How are you doing?
+- How are you?
+- How are you doing?
 
 ## intent:ask_philosophy
 - What is [life](subject)?
@@ -333,3 +333,13 @@
 
 ## intent:question_weather
 - How's the weather?
+
+## intent:question_flower
+- Can you recommend me some flowers for [love](sentiment)?
+- I want flowers for [death](sentiment)
+- Do you have any flowers for [pride](sentiment) and [hatred](sentiment)?
+- I want flowers for a [wedding](sentiment) with lots of [love](sentiment) and [death](sentiment)
+- I want flowers for [love](sentiment)
+- Do you have flowers for pride? hatred and hope works too
+- I want flowers for hope
+- What if I wanted flowers for inspiration?

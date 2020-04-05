@@ -1,1 +1,2 @@
-(S hello/NN)
+
+(S I/PRP did/VBD n't/RB understand/VB that/IN)
