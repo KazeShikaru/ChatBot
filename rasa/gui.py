@@ -2,17 +2,21 @@ from tkinter import *
 from spellingCorrector import process_str
 from botMessageAPI import botInput
 
+#size of the screen
 WIDTH = 360
 HEIGTH = 480
 
+#initialize some objects
 window = None
 chat_body = None
 text_input = None
 button = None
 
+#send message to the bot and get its answer back
 def send(aux):
     return botInput(aux,"JOHN")
 
+#prints the text into the screen
 def update_text(aux,user=True):
     if(user):
         chat_body.insert(END,"(You): " + aux + "\n\n")
@@ -20,28 +24,33 @@ def update_text(aux,user=True):
     else:
         chat_body.insert(END,"(Bot): " + aux + "\n\n")
 
+#on click send inputs to bot and display input and answer
 def on_click():
     aux_s = text_input.get()
     update_text(aux_s)
     aux_s = process_str(aux_s)
     update_text(send(aux_s),False)
 
+#initializes tkinter window root
 window = Tk()
+#window title
 window.title("Potato ChatBot")
+#window size
 window.geometry(str(WIDTH) + "x" + str(HEIGTH))
+#is the window resizable
 window.resizable(0, 0)
 
+#setup the text showinf widget
 chat_body = Text(window)
 chat_body.place(x=0,
                 y=0,
                 width=WIDTH,
                 height=HEIGTH - 50)
-#chat_body.bindtags((chat_body, window, "all"))
+#make the text scrolable
 scrool = Scrollbar(window, orient="vertical", command=chat_body.yview)
 chat_body.configure(yscrollcommand=scrool.set)
 
-
-
+#set the text input widtget
 text_input = StringVar()
 text_entry = Entry(textvariable=text_input)
 text_entry.place(x=10,
@@ -49,6 +58,7 @@ text_entry.place(x=10,
                 width=(WIDTH*.80),
                 height=40)
 
+#set the button to comfirm input
 button = Button(window, text="SEND",
                 command=on_click)
 button.place(x= WIDTH-(WIDTH*.18)-5,
