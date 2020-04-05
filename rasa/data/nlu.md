@@ -343,3 +343,9 @@
 - Do you have flowers for pride? hatred and hope works too
 - I want flowers for hope
 - What if I wanted flowers for inspiration?
+
+## intent:question_music
+- Can you recommend me some music for [love](sentiment)?
+- I want to listen to some [chill](sentiment) music
+- Do you know any [sad](sentiment) music?
+- I want to listen to some [chill](sentiment) music
