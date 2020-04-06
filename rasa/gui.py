@@ -5,7 +5,8 @@ from botMessageAPI import botInput
 #size of the screen
 WIDTH = 360
 HEIGTH = 480
-run()
+
+
 #test bot input
 def run():
     try:
@@ -76,3 +77,5 @@ def run():
 
     #initialize program loop    
     window.mainloop()
+
+run()
