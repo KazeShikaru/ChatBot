@@ -35,7 +35,7 @@ Currently our pipeline is composed of these following components:
 ## Installation and running guide (current version)
 
 First, install Anaconda for python 3.7. After installing it and launching anaconda. Inside it import the virtual environment file `environment.yml` contained inside the project folder `./rasa`. It may take a while to import it due to the high number of Dependencies.
-Now, using pythom import ntlk and download vader_lexicon `nltk.download('vader_lexicon')`.<br><br>
+Now, use pip to install 'nltk', then using python import ntlk and download vader_lexicon `nltk.download('vader_lexicon')`.<br><br>
 Then, you will need to install Rasa and its dependencies (Spacy): https://rasa.com/docs/rasa/user-guide/installation/. You may need to install it inside the rasa terminal. Look at the following instruction on how to do it. <br><br>
 Afterwards, Inside Anaconda on the environments tab click the arrow on top of the environment named `rasa`. This will load the environment. After it is loaded click the arrow again and select the option run in terminal. This will create a new command prompt. <br>
 Inside it change the directory to the folder where your project is located. There, use the command (rasa shell).<br>
