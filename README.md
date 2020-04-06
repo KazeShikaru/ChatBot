@@ -46,7 +46,13 @@ When done you can run the command `rasa shell` to start the command prompt versi
 <br><br>
 If you want to run the GUI version. First you need to install pyspellchecker on rasa enviroment and on the your computer `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.<br>
 ## Features that can be converted to APIs
-
+  GUI<br>
+  Spelling Corrector<br>
+  Socket Communication<br>
+  Flower Decider<br>
+  Suggest Music<br>
+  Bot connector<br>
+  
 
 ## Sample Output
 ![](images/convo1.PNG)
