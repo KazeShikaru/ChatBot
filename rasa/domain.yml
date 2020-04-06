@@ -100,8 +100,6 @@ responses:
   - text: I'm trying to sell potatoes
   utter_denial:
   - text: I can't do that.
-  utter_did_that_help:
-  - text: Did that help you?
   utter_enjoy_equal:
   - text: I enjoy all [trait]s equally
   utter_favorite_color:

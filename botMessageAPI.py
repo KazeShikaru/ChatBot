@@ -9,6 +9,8 @@ def botInput(message, sender):
 	r = requests.post('http://localhost:5005/webhooks/rest/webhook', payload)
 	start = r.text.find('text":"')+7
 	end = r.text.find('"}]')
+	out = r.text[start:end]
+	out = out.replace('"},{"recipient_id":"JOHN","text":"Did that help you?', '')
 	return r.text[start:end]
 
 def botInputCustomUrl(message, sender, url):
