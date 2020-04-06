@@ -348,4 +348,12 @@
 - Can you recommend me some music for [love](sentiment)?
 - I want to listen to some [chill](sentiment) music
 - Do you know any [sad](sentiment) music?
-- I want to listen to some [chill](sentiment) music
+- how about some angry music recommendations
+- What music do you recomend I listen to I feel [happy](sentiment)?
+- What should I listen to if I feel [happy](sentiment)?
+- Give me some [rainy](sentiment) music
+- I want to listen to some [rainy](sentiment) music
+- I want to listen to some angry music
+- I want to listen to some [sad](sentiment) music
+- I want to listen to some [bittersweet](sentiment) music
+- can you recomend me some [lonely](sentiment) music?

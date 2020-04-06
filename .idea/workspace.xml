@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fdbb2f4-1b3a-43e7-a613-d8f8dde53728" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/rasa/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasa/data/nlu.md" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/data/nlu.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasa/data/stories.md" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/data/stories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/domain.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasa/story_graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/story_graph.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasa/tempData/entities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/tempData/entities.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rasa/tempData/sentiment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rasa/tempData/sentiment.txt" afterDir="false" />
