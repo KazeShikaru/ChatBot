@@ -58,7 +58,14 @@ You can also run the UI and Server together by running the file `mainRun.py` fro
   Bot connector<br>
 
 ## Features Implemented (since last version)
-Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis, entity recognition, and spelling checker on the gui.<br>
-Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
+We implemented a flower recommendation and a music implementation system. This add variery in the conversations and makes the conversation fell more natural
+![](/images/music.PNG)
+![](images/flowe.png)
+We implemeted a simple custom gui which makes talking with the bot simpler, and a spelling corrector system on the background of the api. So it can correct most of the users spelling mistakes.
+![](images/unknown.png)
+We implemented sentiment analysis and entity recognition with nltk. This allows the bot to chose a better and more natural answer for the user input.
+![](images/sentiment.png)
+<br>
+Besides it we also trained the bot more so it has more answers and better accuracy when answering the users input. Furthermore, Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
 
 
