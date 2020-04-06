@@ -10,7 +10,7 @@ def botInput(message, sender):
 	start = r.text.find('text":"')+7
 	end = r.text.find('"}]')
 	out = r.text[start:end]
-	out = out.replace('"},{"recipient_id":"JOHN","text":"Did that help you?', '')
+	out = out.replace('"},{"recipient_id":"JOHN","text":"', '')
 	return r.text[start:end]
 
 def botInputCustomUrl(message, sender, url):
