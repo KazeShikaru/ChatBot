@@ -366,3 +366,14 @@
     - action_flower_recommendation
 * question_flower
     - action_flower_recommendation
+
+## interactive_story_1
+* question_music
+    - action_music_recommendation
+## interactive_story_1
+* question_music{"sentiment": "chill"}
+    - action_music_recommendation
+
+## interactive_story_1
+* question_music{"sentiment": "chill"}
+    - action_music_recommendation
