@@ -377,3 +377,31 @@
 ## interactive_story_1
 * question_music{"sentiment": "chill"}
     - action_music_recommendation
+
+## interactive_story_1
+* question_music{"sentiment": "chill"}
+    - action_music_recommendation
+* question_music
+    - action_music_recommendation
+* question_music{"sentiment": "happy"}
+    - action_music_recommendation
+* question_music{"sentiment": "rainy"}
+    - action_music_recommendation
+* question_music{"sentiment": "rainy"}
+    - action_music_recommendation
+
+## interactive_story_1
+* question_music
+    - action_music_recommendation
+* question_music{"sentiment": "sad"}
+    - action_music_recommendation
+
+## interactive_story_2
+* question_music{"sentiment": "sad"}
+    - action_music_recommendation
+
+## interactive_story_1
+* question_music{"sentiment": "bittersweet"}
+    - action_music_recommendation
+* question_music{"sentiment": "lonely"}
+    - action_music_recommendation
