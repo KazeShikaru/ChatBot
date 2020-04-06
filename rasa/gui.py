@@ -77,5 +77,3 @@ def run():
 
     #initialize program loop    
     window.mainloop()
-
-run()
