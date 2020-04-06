@@ -45,7 +45,7 @@ If you get the following exception ` rasa.nlu.model.UnsupportedModelError: The m
 
 When done you can run the command `rasa shell` to start the command prompt version of the bot, you will also need to run `rasa run actions` in another command prompt in your rasa environment. If it does not work you may need to delete all models inside the `.\rasa\models`. And re-train it again.
 <br><br>
-If you want to manually run the GUI version. First you need to install pyspellchecker on rasa enviroment and on the your computer `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `gui.py` to start the gui.
+If you want to manually run the GUI version. First you need to install pyspellchecker on rasa enviroment and on the your computer `pip install pyspellchecker`.After that use the following command: `rasa run -m models --enable-api --cors "*" --debug` to start the server. After that run the file `guiStand.py` to start the gui.
 <br><br>
 You can also run the UI and Server together by running the file `mainRun.py` from inside the rasa enviroment terminal.  The GUI launces once the bot is ready so it may take a minute to appear.
 
