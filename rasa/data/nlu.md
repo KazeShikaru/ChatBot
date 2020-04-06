@@ -77,11 +77,15 @@
 - what else can you do?
 - what are you
 - do you listen to [music](subject)?
+- What do you do
+- what else do you do?
+- do you do anything else?
 
 ## intent:learn_future
 - How will I die?
 - Will I be rich?
 - What will happen to me?
+- hopefully you will be further developed
 
 ## intent:goodbye
 - bye
@@ -97,6 +101,7 @@
 - Sorry I have to go
 - ok thanks bye
 - I think we're done here
+- alright, well goodbye then
 
 ## intent:affirm
 - yes
@@ -115,6 +120,8 @@
 - You are welcome!
 - I guess that's fair
 - Yes I would
+- sure I would love some
+- you've got yourself a deal
 
 ## intent:deny
 - no
@@ -147,6 +154,8 @@
 - stellar
 - Yes, a little
 - I think I love you
+- That helped tremendously, I am now [happy](sentiment)
+- ya that's the one
 
 ## intent:mood_unhappy
 - sad
@@ -165,6 +174,7 @@
 - not great
 - im [sad](subject)
 - thats sad
+- I think that would make me [sad](mood)
 
 ## intent:bot_challenge
 - are you a bot?
@@ -210,6 +220,7 @@
 - Thats too expensive
 - can it be 3 dollars?
 - how much do they cost?
+- no that is too much
 
 ## intent:show_product_interest
 - oh really?
@@ -224,6 +235,9 @@
 - okay, I'll take 6
 - may I buy some potatoes?
 - sure, I could go for a juicy potato right about now
+- can I buy some potatoes?
+- may I buy some?
+- I'll buy some !
 
 ## intent:rasputin
 - rasput man
@@ -231,6 +245,7 @@
 - am rasputin
 - rasputin
 - Rasputin
+- do you know the song rasputin?
 
 ## intent:question_state
 - how are you?
@@ -243,6 +258,7 @@
 - How are you?
 - Hey! What's up?
 - How's it going?
+- How are you feeling
 
 ## intent:question_favorite_color
 - what's your favorite color?
@@ -268,6 +284,7 @@
 - What kind of potato do you have in stock?
 - What kind of potatoes do you have?
 - do you sell potatoes?
+- good, what potatoes do you currently have in stock
 
 ## intent:question_best_potato
 - what potato should I buy?
@@ -287,6 +304,7 @@
 - I need to cook kids
 - hey
 - To make fries
+- I want to make potato soup
 
 ## intent:question_price
 - how much would that cost?
@@ -299,6 +317,7 @@
 - what can you do?
 - what can I do here?
 - What else can you do?
+- what are your functions
 
 ## intent:question_flower_event_death
 - what should I buy for a funeral?
@@ -306,6 +325,7 @@
 - death is near, what should I do?
 - family died
 - Micheal died, I need flower now!
+- what about [flowers](subject) for a funeral?
 
 ## intent:question_flower_event_wedding
 - I'm getting married
@@ -314,18 +334,22 @@
 - I want the best flowers for my special day!
 - I'm marrying Micheal's widow now, need flower
 - and what is a good [flower](subject) for a [wedding](subject)?
+- what flowers do you recommend for a [wedding](subject)?
 
 ## intent:question_favorite_potato
 - What's your favorite potato?
+- what is your favorite potato
 
 ## intent:unsatisfied_answer
 - That's a vague answer!
+- well that is pretty boring
 
 ## intent:desire_potato
 - How much for a [potato](subject)?
 
 ## intent:state_name
 - My name is [Will](user)
+- My name is [carter](user) by the way
 
 ## intent:question_current_bot_action
 - What are you doing right now?
@@ -333,6 +357,7 @@
 
 ## intent:question_weather
 - How's the weather?
+- how is the weather
 
 ## intent:question_flower
 - Can you recommend me some flowers for [love](sentiment)?
@@ -343,6 +368,7 @@
 - Do you have flowers for pride? hatred and hope works too
 - I want flowers for hope
 - What if I wanted flowers for inspiration?
+- what [flowers](subject) would you recommend?
 
 ## intent:question_music
 - Can you recommend me some music for [love](sentiment)?
@@ -357,3 +383,4 @@
 - I want to listen to some [sad](sentiment) music
 - I want to listen to some [bittersweet](sentiment) music
 - can you recomend me some [lonely](sentiment) music?
+- what kind of music should I listen to?
