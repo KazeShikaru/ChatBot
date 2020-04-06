@@ -60,4 +60,8 @@ Functions added include a modified flower and potato recommendation system, a cu
 Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
 
 
+## Video Presentation
+
+[![Watch the video](https://img.youtube.com/vi/T-7Qv8eEGH0F0/maxresdefault.jpg)](https://youtu.be/7Qv8eEGH0F0)
+
 
