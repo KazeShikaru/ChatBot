@@ -56,22 +56,9 @@ You can also run the UI and Server together by running the file `mainRun.py` fro
   Flower Decider<br>
   Suggest Music<br>
   Bot connector<br>
-  
-
-## Sample Output
-![](images/convo1.PNG)
-![](images/convo2.PNG)
-![](images/convo3.PNG)
-![](images/convo4.PNG)
-![](images/convo5.PNG)
 
 ## Features Implemented (since last version)
 Functions added include a modified flower and potato recommendation system, a custom gui, a flower recommendation system, more training, sentiment analysis, entity recognition, and spelling checker on the gui.<br>
 Training data now contains spelling errors to account for user spelling mistakes. Altought, the system should be sufficiently capable of ignoring most spelling errors on low value words anyway.
-
-
-## Video Presentation
-
-[![Watch the video](https://img.youtube.com/vi/T-7Qv8eEGH0F0/maxresdefault.jpg)](https://youtu.be/7Qv8eEGH0F0)
 
 
