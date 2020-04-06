@@ -405,3 +405,67 @@
     - action_music_recommendation
 * question_music{"sentiment": "lonely"}
     - action_music_recommendation
+
+## interactive_story_1
+* greet
+    - utter_greet
+* learn_bot
+    - utter_enjoy_equal
+* question_bot_purpose
+    - utter_purpose
+* show_product_interest
+    - utter_sale_pitch
+* barter_price
+    - utter_user_needs
+* inform_user_needs
+    - action_decide
+* show_product_interest
+    - utter_potato_price
+* affirm
+    - utter_complete_sale
+* learn_bot
+    - utter_iamabot
+* question_flower{"subject": "flowers"}
+    - action_flower_recommendation
+* question_music
+    - action_music_recommendation
+* mood_unhappy{"mood": "sad"}
+    - utter_cheer_up
+    - utter_did_that_help
+* mood_great{"sentiment": "happy"}
+    - utter_happy
+* question_flower_event_wedding{"subject": "wedding"}
+    - action_flower_recommendation
+* question_flower_event_death{"subject": "flowers"}
+    - utter_flower_death
+* question_bot_purpose
+    - utter_purpose
+* question_favorite_potato
+    - utter_favorite_potato
+* question_functions
+    - utter_functions
+* question_state
+    - utter_state
+* question_potato_stock
+    - utter_stock
+* show_product_interest
+    - utter_adjusted_price
+* affirm
+    - utter_complete_sale
+* question_weather
+    - utter_optimism
+* rasputin
+    - utter_speak_rasputin
+* mood_great
+    - utter_happy
+* state_name{"user": "carter"}
+    - slot{"user": "carter"}
+    - utter_greet
+* learn_bot
+    - utter_iamabot
+* unsatisfied_answer
+    - utter_appology
+* learn_future
+    - utter_optimism
+* goodbye
+    - utter_goodbye

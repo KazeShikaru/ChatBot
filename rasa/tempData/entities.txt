@@ -1,1 +1,1 @@
-(S alright/NN ,/, well/RB goodbye/VBZ then/RB)
+(S a/DT)
